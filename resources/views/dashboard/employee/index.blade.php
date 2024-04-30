@@ -204,7 +204,7 @@
                                     </div>
                                 </div>
 
-                                <div class="card-footer bg-white border-top-grey py-3">
+                                {{-- <div class="card-footer bg-white border-top-grey py-3">
                                     <div class="d-flex flex-wrap justify-content-between">
                                         <span>
                                             <label class="f-12 text-dark-grey mb-12 text-capitalize" for="usr">
@@ -236,13 +236,13 @@
                                             </span>
                                         @endif
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <!-- EMP DASHBOARD INFO END -->
                         @endif
 
-                        @if (!is_null($myActiveTimer))
+                        {{-- @if (!is_null($myActiveTimer))
                             <div class="col-sm-12" id="myActiveTimerSection">
                                 <x-cards.data class="mb-3" :title="__('modules.timeLogs.myActiveTimer')">
                                     <div class="row">
@@ -328,7 +328,7 @@
                                     </div>
                                 </x-cards.data>
                             </div>
-                        @endif
+                        @endif --}}
 
                         @if (in_array('attendance', user_modules()) && in_array('shift_schedule', $activeWidgets))
                             <div class="col-sm-12">
@@ -416,7 +416,7 @@
             <!-- EMP DASHBOARD TASKS PROJECTS EVENTS START -->
             <div class="col-xl-7 col-lg-12 col-md-12 e-d-tasks-projects-events">
                 <!-- EMP DASHBOARD TASKS PROJECTS START -->
-                <div class="row mb-3 mt-xl-0 mt-lg-4 mt-md-4 mt-4">
+                {{-- <div class="row mb-3 mt-xl-0 mt-lg-4 mt-md-4 mt-4">
                     @if (in_array('tasks', $activeWidgets))
                         <div class="col-md-6">
                             <div
@@ -544,10 +544,10 @@
                             </div>
                         </div>
                     @endif
-                </div>
+                </div> --}}
                 <!-- EMP DASHBOARD TASKS PROJECTS END -->
 
-                @if (in_array('my_task', $activeWidgets))
+                {{-- @if (in_array('my_task', $activeWidgets))
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="card border-0 b-shadow-4 mb-3 e-d-info">
@@ -668,7 +668,7 @@
                         </div>
                     </div>
                 </div>
-                @endif
+                @endif --}}
 
                 <!-- EMP DASHBOARD EVENTS START -->
                 @if (in_array('my_calender', $activeWidgets))

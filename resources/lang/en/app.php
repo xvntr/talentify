@@ -1,6 +1,6 @@
 <?php
 
-return array (
+return array(
   'check' => 'Check',
   'true' => 'True',
   'false' => 'False',
@@ -87,7 +87,7 @@ return array (
   'invoiceGenerate' => 'Invoice Generated',
   'projectTemplate' => 'Project Template',
   'leave' => 'Leave',
-  'holiday' => 'Holiday ( :name)',
+  'holiday' => 'Public Holiday ( :name)',
   'inProcess' => 'In Process',
   'overdue' => 'Overdue',
   'clockInAt' => 'Clock In at',
@@ -106,17 +106,17 @@ return array (
   'offline' => 'Offline',
   'lastTweleveMonths' => 'Last 12 Months',
   'googleMap' => 'Google Map',
-  'fullTime' => 'Full Time',
-  'partTime' => 'Part Time',
-  'onContract' => 'On Contract',
-  'internship' => 'Internship',
+  'fullTime' => 'Permanent',
+  'partTime' => 'Daily Worker',
+  'onContract' => 'Contract',
+  'internship' => 'Apprentice',
   'trainee' => 'Trainee',
-  'menu' => array (
+  'menu' => array(
     'parent_id' => 'Parent',
     'child_id' => 'Child',
     'home' => 'Home',
     'myCalendar' => 'My Calendar',
-    'holiday' => 'Holiday',
+    'holiday' => 'Public Holiday',
     'dashboard' => 'Dashboard',
     'knowledgebase' => 'Knowledge Base',
     'clients' => 'Clients',
@@ -211,7 +211,7 @@ return array (
     'financeSettings' => 'Finance Settings',
     'taxSettings' => 'Tax Settings',
     'credit-note' => 'Credit Note',
-    'designation' => 'Designation',
+    'designation' => 'Job Position',
     'help' => 'Help',
     'gdpr' => 'GDPR',
     'customers' => 'Customers',
@@ -221,11 +221,11 @@ return array (
     'attrition' => 'Attrition',
     'contracts' => 'Contracts',
     'pusher' => array(
-        'appId' => 'App Id',
-        'appKey' => 'App Key',
-        'appSecret' => 'App Secret',
-        'appCluster' => 'App Cluster',
-        'forceTLS' => 'Force TLS',
+      'appId' => 'App Id',
+      'appKey' => 'App Key',
+      'appSecret' => 'App Secret',
+      'appCluster' => 'App Cluster',
+      'forceTLS' => 'Force TLS',
     ),
     'content' => 'Content',
     'decline' => 'Decline',
@@ -233,12 +233,12 @@ return array (
     'download' => 'Download',
     'applyToInvoice' => 'Pay Invoice using Credit Note',
     'credit-notes' => array(
-        'invoiceDate' => 'Invoice Date',
-        'invoiceAmount' => 'Invoice Amount',
-        'invoiceBalanceDue' => 'Invoice Balance Due',
-        'amountToCredit' => 'Amount To Credit',
-        'remainingAmount' => 'Remaining Amount',
-        'amountCredited' => 'Amount Credited',
+      'invoiceDate' => 'Invoice Date',
+      'invoiceAmount' => 'Invoice Amount',
+      'invoiceBalanceDue' => 'Invoice Balance Due',
+      'amountToCredit' => 'Amount To Credit',
+      'remainingAmount' => 'Remaining Amount',
+      'amountCredited' => 'Amount Credited',
     ),
     'creditedInvoices' => 'Invoices Credited',
     'appliedCredits' => 'Applied Credits',
@@ -290,35 +290,35 @@ return array (
     'receipt' => 'Receipt',
     'callback' => 'Callback',
     'socialAuthSettings' => array(
-        'google' => 'Google',
-        'facebook' => 'Facebook',
-        'linkedin' => 'Linkedin',
-        'twitter' => 'Twitter',
-        'googleClientId' => 'Google App ID',
-        'facebookClientId' => 'Facebook App ID',
-        'twitterClientId' => 'Twitter App ID',
-        'linkedinClientId' => 'Linkedin App ID',
-        'googleSecret' => 'Google Secret',
-        'facebookSecret' => 'Facebook Secret',
-        'twitterSecret' => 'Twitter Secret',
-        'linkedinSecret' => 'Linkedin Secret',
+      'google' => 'Google',
+      'facebook' => 'Facebook',
+      'linkedin' => 'Linkedin',
+      'twitter' => 'Twitter',
+      'googleClientId' => 'Google App ID',
+      'facebookClientId' => 'Facebook App ID',
+      'twitterClientId' => 'Twitter App ID',
+      'linkedinClientId' => 'Linkedin App ID',
+      'googleSecret' => 'Google Secret',
+      'facebookSecret' => 'Facebook Secret',
+      'twitterSecret' => 'Twitter Secret',
+      'linkedinSecret' => 'Linkedin Secret',
     ),
     'saveSend' => 'Save & Send',
     'saveDraft' => 'Save as Draft',
     'send' => 'Send',
     'months' => array(
-        'January' => 'January',
-        'February' => 'February',
-        'March' => 'March',
-        'April' => 'April',
-        'May' => 'May',
-        'June' => 'June',
-        'July' => 'July',
-        'August' => 'August',
-        'September' => 'September',
-        'October' => 'October',
-        'November' => 'November',
-        'December' => 'December',
+      'January' => 'January',
+      'February' => 'February',
+      'March' => 'March',
+      'April' => 'April',
+      'May' => 'May',
+      'June' => 'June',
+      'July' => 'July',
+      'August' => 'August',
+      'September' => 'September',
+      'October' => 'October',
+      'November' => 'November',
+      'December' => 'December',
     ),
     'languageSetting' => 'Language Setting',
     'archive' => 'Archive',
@@ -329,7 +329,7 @@ return array (
     'labelName' => 'Label Name',
     'color' => 'Color',
     'columnStatus' => 'Status',
-    'hr' => 'HR',
+    'hr' => 'HR System',
     'work' => 'Work',
     'contractType' => 'Contract Type',
     'contract' => 'Contract',
@@ -369,7 +369,7 @@ return array (
     'databaseBackupSetting' => 'Database Backup Settings',
     'emailSync' => 'Email Sync',
     'employeeShifts' => 'Employee Shifts',
-    'shiftRoster' => 'Shift Roster',
+    'shiftRoster' => 'Schedule',
     'department' => 'Department',
     'expenseReport' => 'Expense Report',
     'advanced' => 'Advanced',
@@ -537,7 +537,7 @@ return array (
   'summary' => 'Summary',
   'estimate' => 'Estimate',
   'zero' => 'Zero',
-  'designation' => 'Designation',
+  'designation' => 'Job Position',
   'company_name' => 'Company Name',
   'thanks' => 'Thanks',
   'invoiceNumber' => 'Invoice Number',
@@ -556,7 +556,7 @@ return array (
   'subject' => 'Subject',
   'joining' => 'Joining',
   'attrition' => 'Attrition',
-  'pusher' => array (
+  'pusher' => array(
     'appId' => 'App Id',
     'appKey' => 'App Key',
     'appSecret' => 'App Secret',
@@ -568,7 +568,7 @@ return array (
   'signed' => 'Signed',
   'download' => 'Download',
   'applyToInvoice' => 'Pay Invoice using Credit Note',
-  'credit-notes' => array (
+  'credit-notes' => array(
     'invoiceDate' => 'Invoice Date',
     'invoiceAmount' => 'Invoice Amount',
     'invoiceBalanceDue' => 'Invoice Balance Due',
@@ -576,34 +576,34 @@ return array (
     'remainingAmount' => 'Remaining Amount',
     'amountCredited' => 'Amount Credited',
   ),
-  'onesignal' => array (
+  'onesignal' => array(
     'actionMessage' => 'We\'d like to show you notifications for the latest news and updates.',
     'acceptButtonText' => 'ALLOW',
     'cancelButtonText' => 'NO THANKS',
-    'tip' => array (
-      'state' => array (
+    'tip' => array(
+      'state' => array(
         'unsubscribed' => 'Subscribe to notifications',
         'subscribed' => 'You\'re subscribed to notifications',
         'blocked' => 'You\'ve blocked notifications',
       ),
     ),
-    'message' => array (
+    'message' => array(
       'prenotify' => 'Click to subscribe to notifications',
-      'action' => array (
+      'action' => array(
         'subscribed' => 'Thanks for subscribing!',
         'resubscribed' => 'You\'re subscribed to notifications',
         'unsubscribed' => 'You won\'t receive notifications again',
       ),
     ),
-    'dialog' => array (
-      'main' => array (
+    'dialog' => array(
+      'main' => array(
         'title' => 'Manage Site Notifications',
-        'button' => array (
+        'button' => array(
           'subscribe' => 'SUBSCRIBE',
           'unsubscribe' => 'UNSUBSCRIBE',
         ),
       ),
-      'blocked' => array (
+      'blocked' => array(
         'title' => 'Unblock Notifications',
         'message' => 'Follow these instructions to allow notifications:',
       ),
@@ -662,7 +662,7 @@ return array (
   'mins' => 'mins',
   'receipt' => 'Receipt',
   'callback' => 'Callback',
-  'socialAuthSettings' => array (
+  'socialAuthSettings' => array(
     'google' => 'Google',
     'facebook' => 'Facebook',
     'linkedin' => 'Linkedin',
@@ -679,7 +679,7 @@ return array (
   'saveSend' => 'Save & Send',
   'saveDraft' => 'Save as Draft',
   'send' => 'Send',
-  'months' => array (
+  'months' => array(
     'January' => 'January',
     'February' => 'February',
     'March' => 'March',
@@ -755,7 +755,7 @@ return array (
   'fields' => 'Field',
   'closed' => 'Closed',
   'cancelEstimate' => 'Cancel Estimate',
-  'weeks' => array (
+  'weeks' => array(
     'Sun' => 'Su',
     'Mon' => 'Mo',
     'Tue' => 'Tu',
@@ -764,7 +764,7 @@ return array (
     'Fri' => 'Fr',
     'Sat' => 'Sa',
   ),
-  'monthsShort' => array (
+  'monthsShort' => array(
     'Jan' => 'Jan',
     'Feb' => 'Feb',
     'Mar' => 'Mar',
@@ -854,7 +854,7 @@ return array (
   'stripePublishableKey' => 'Stripe Publishable Key',
   'stripeSecret' => 'Stripe Secret',
   'stripeWebhookSecret' => 'Stripe Webhook Signing Secret',
-  'storageSetting' => array (
+  'storageSetting' => array(
     'selectStorage' => 'Select Storage',
     'local' => 'Local (Default)',
     'aws' => 'AWS S3 Storage (Amazon Web Services S3)',
